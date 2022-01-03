@@ -19,5 +19,5 @@ lazy val sandbox = (project in file("herding-cats-sandbox")).settings(
     "io.circe" %% "circe-generic" % "0.14.1",
     "io.circe" %% "circe-parser" % "0.14.1"
   ),
-  mainClass / run := Some("com.herdingcats.sandbox.dayOne.A")
+  mainClass / run := Some("com.herdingcats.sandbox.dayOne.A", "com.herdingcats.sandbox.dayOne.B", "com.herdingcats.sandbox.dayOne.C")
 )
